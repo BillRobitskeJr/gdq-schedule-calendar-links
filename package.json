@@ -1,0 +1,22 @@
+{
+  "name": "gdq-schedule-calendar-links",
+  "version": "1.0.0",
+  "description": "A bookmarklet to add 'Add to Calendar' links to the Games Done Quick run schedule",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js | uglifyjs --compress --mangle --output dist/index.js"
+  },
+  "keywords": [
+    "bookmarklet",
+    "icalendar"
+  ],
+  "author": "Bill Robitske, Jr.",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "uglify-js": "^3.4.9"
+  }
+}
