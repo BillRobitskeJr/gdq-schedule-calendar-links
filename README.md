@@ -4,8 +4,8 @@ A bookmarklet to add "Add to Calendar" links to the [Games Done Quick schedule](
 
 ## How to Add Bookmarklet (Chrome Desktop)
 
-1. Copy the content of [dist/index.js].
-2. In Chrome, open the [Bookmark Manager](chrome://bookmarks/).
+1. Copy the content of [dist/index.js](https://raw.githubusercontent.com/BillRobitskeJr/gdq-schedule-calendar-links/master/dist/index.js).
+2. In Chrome, open the Bookmark Manager (under the Bookmarks menu).
 3. Click the three dots in the blue header bar, and select **Add New Bookmark**.
 4. Name the bookmark as you like (e.g. "GDQ - Enable Calendar Links").
 5. In the **URL** field, enter "javascript:" (without the quotes) and paste in the copied dist/index.js contents.
